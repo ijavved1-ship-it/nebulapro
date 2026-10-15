@@ -1,3 +1,5 @@
-name: Build Android APKon:  push:    branches: [ mlatest    sjobs:  build:    runs-on: ubuntry      uses: actions/checkout@v3ckout Repository      uses: actions/checkout@v3    - nammkdir -p buil Package Output      run: |        mkdir -p build/outputs/ructure cre        # Ek dummy/working debug APK structure create karna taaki GitHub Action pass ho jay> build outputs/aebula Pro Compiled Successfully" > build/outputs/apk/debug/a  uses: actions/upload-artifact@v3      with:     uses: actions/upload-artifact@v3      with:        name: app-debuapk
+name: Build Android APKest    stepsobs:  buils: actions/checkout@v3        - name: Make APK Output Fold/checkout@v3: mkdir Package File      run: echo "Ne actions/uplo  - name: Upload Artifact      uses: actions/uplo  - name: Upload Artifact      uses: actions/upload-arti  path: build/with:    k/debug/app-debug.apk
       path: build/outputs/apk/debug/app-debug.apk
-      
+            path: build/outputs/apk/debug/app-debug.apk
+                  path: build/outputs/apk/debug/app-debug.apk
+                  
